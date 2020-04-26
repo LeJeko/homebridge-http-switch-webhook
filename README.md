@@ -30,7 +30,7 @@ The following paramteres are supported:
       "off_if_this": {"status":"off"},                    // If you don't want to use on_if_this_fn
       "set_on_url" : "http://localhost/turn/on",          // The JSON-Webservice URL for turning the device on
       "polling" : true,                                   // Enable Polling/Refreshing of the Status
-      "pollingInterval" : 5,                              // Polling Interval in Seconds
+      "pollingInterval" : 60,                              // Polling Interval in Seconds
       "name" : "Desk Light",                              // Name of your Switch/Accessory
       "webhook_port" : "3211"                             // (Optionnal) Port to listen for webhook
     }

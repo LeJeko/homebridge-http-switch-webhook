@@ -17,7 +17,7 @@ npm install -g homebridge-http-switch-webhook
 
 The following paramteres are supported:
 
-```json
+```
     // Switch with polling and a On/Off-State
     {
       "accessory" : "SimpleHttpSwitch",

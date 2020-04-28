@@ -64,6 +64,8 @@ httpSwitchWebhookAccessory.prototype.getServices = function () {
         .setCharacteristic(Characteristic.Manufacturer, "Homebridge")
         .setCharacteristic(Characteristic.Model, "HTTP Switch webhook")
         .setCharacteristic(Characteristic.SerialNumber, package.version)
+        .setCharacteristic(Characteristic.FirmwareRevision, package.version)
+
     this.switchService = new Service.Switch()
     if (this.status_url) {
         this.switchService

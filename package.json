@@ -1,6 +1,6 @@
 {
     "name": "homebridge-http-switch-webhook",
-    "version": "0.1.2",
+    "version": "1.0.0",
     "description": "HTTP Switch with optionnal webhook support for HomeBridge",
     "license": "MIT",
     "main": "index.js",

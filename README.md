@@ -1,5 +1,16 @@
+<p align="center">
+  <a href="https://github.com/homebridge/homebridge"><img src="https://raw.githubusercontent.com/homebridge/branding/master/logos/homebridge-color-round-stylized.png" height="140"></a>
+</p>
+
+<span align="center">
+
 # homebridge-http-switch-webhook
 
+[![npm](https://img.shields.io/npm/v/homebridge-http-switch-webhook.svg)](https://www.npmjs.com/package/homebridge-http-switch-webhook) [![npm](https://img.shields.io/npm/dt/homebridge-http-switch-webhook.svg)](https://www.npmjs.com/package/homebridge-http-switch-webhook)
+
+</span>
+
+## Description
 This Project deliver a simple, but fail-safe HTTP Switch for HomeBridge with optionnal support for webhook with or without conjuction of polling.
 
 To simplify the webhook, it listens on a port and simply triggers the "status_url" parameter on request. So it needs no parameters.
